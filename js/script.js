@@ -56,23 +56,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   /* ---------- Botões de checkout ----------
-     Preparado para receber futuramente o link de checkout.
-     Basta definir a constante abaixo com a URL da plataforma
-     (Kiwify, Hotmart, etc.) que todos os botões passam a
-     redirecionar automaticamente.
+     O link do checkout já está definido diretamente no href
+     de cada botão (data-checkout) no index.html, abrindo em
+     nova aba (target="_blank"). Nenhum redirecionamento via
+     JS é necessário aqui.
   ------------------------------------------------------------ */
-  var CHECKOUT_URL = ""; // ex.: "https://pay.kiwify.com.br/seu-produto"
-
-  document.querySelectorAll("[data-checkout]").forEach(function (btn) {
-    btn.addEventListener("click", function (e) {
-      if (CHECKOUT_URL) {
-        // Redireciona para o checkout quando a URL estiver definida
-        window.location.href = CHECKOUT_URL;
-      } else {
-        // Enquanto não há link, evita navegação e avisa no console
-        e.preventDefault();
-        console.log("[v0] Link de checkout ainda não configurado. Defina CHECKOUT_URL em js/script.js.");
-      }
-    });
-  });
 });
