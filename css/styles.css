@@ -567,7 +567,7 @@ img { max-width: 100%; display: block; }
   .hero__details { order: 5; }
 
   .ebook { margin-top: 0; margin-left: 0; }
-  .ebook__img { width: min(270px, 58vw); }
+  .ebook__img { width: min(297px, 64vw); }
   .hero__title { margin-bottom: 0; }
   .hero__list { max-width: 420px; margin-inline: auto; margin-bottom: 0; }
   .hero__subtitle { margin-inline: auto; }
