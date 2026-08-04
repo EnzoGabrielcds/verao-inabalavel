@@ -86,15 +86,8 @@ img { max-width: 100%; display: block; }
 
 /* ---------- Header ---------- */
 .header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background-color: rgba(247, 240, 230, 0.85);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(13, 43, 76, 0.06);
-  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  background-color: transparent;
 }
-.header.is-scrolled { box-shadow: var(--shadow-sm); background-color: rgba(247, 240, 230, 0.95); }
 
 .header__inner {
   display: flex;
@@ -574,6 +567,7 @@ img { max-width: 100%; display: block; }
   .hero__details { order: 5; }
 
   .ebook { margin-top: 0; margin-left: 0; }
+  .ebook__img { width: min(270px, 58vw); }
   .hero__title { margin-bottom: 0; }
   .hero__list { max-width: 420px; margin-inline: auto; margin-bottom: 0; }
   .hero__subtitle { margin-inline: auto; }
