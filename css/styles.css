@@ -210,15 +210,16 @@ img { max-width: 100%; display: block; }
   text-align: center;
 }
 .hero__price-old {
-  font-size: 0.95rem;
+  font-family: var(--font-body);
+  font-size: 1.075rem;
   font-weight: 600;
-  color: rgba(91, 107, 124, 0.6);
+  color: var(--navy);
   text-decoration: line-through;
 }
 .hero__price-new {
   font-family: var(--font-title);
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 2.2rem;
   line-height: 1;
   color: var(--orange);
   margin: 2px 0 4px;
