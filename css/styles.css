@@ -209,13 +209,11 @@ img { max-width: 100%; display: block; }
   align-items: center;
   text-align: center;
 }
-.hero__price-label {
-  font-family: var(--font-title);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 0.85rem;
-  color: var(--navy);
+.hero__price-old {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: rgba(91, 107, 124, 0.6);
+  text-decoration: line-through;
 }
 .hero__price-new {
   font-family: var(--font-title);
@@ -228,7 +226,7 @@ img { max-width: 100%; display: block; }
 .hero__price-sub {
   font-size: 0.9rem;
   font-weight: 600;
-  color: var(--navy);
+  color: var(--muted);
 }
 
 .badge {
@@ -598,5 +596,5 @@ img { max-width: 100%; display: block; }
   .cards { grid-template-columns: 1fr; }
   .section { padding: 72px 0; }
   .hero { padding: 48px 0 72px; }
-  .hero__list { grid-template-columns: 1fr; }
+  .hero__list { grid-template-columns: repeat(2, 1fr); gap: 8px 12px; }
 }
