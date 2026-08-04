@@ -208,6 +208,7 @@ img { max-width: 100%; display: block; }
   flex-direction: column;
   align-items: center;
   text-align: center;
+  gap: 6px;
 }
 .hero__price-old {
   font-family: var(--font-body);
@@ -216,13 +217,18 @@ img { max-width: 100%; display: block; }
   color: var(--navy);
   text-decoration: line-through;
 }
+.hero__price-label {
+  font-family: var(--font-body);
+  font-size: 1.075rem;
+  font-weight: 600;
+  color: var(--navy);
+}
 .hero__price-new {
   font-family: var(--font-title);
   font-weight: 900;
   font-size: 2.2rem;
   line-height: 1;
   color: var(--orange);
-  margin: 2px 0 4px;
 }
 .hero__price-sub {
   font-size: 0.9rem;
