@@ -314,6 +314,7 @@ img { max-width: 100%; display: block; }
   font-weight: 600;
 }
 .secure--light { color: rgba(255, 255, 255, 0.85); }
+.split__content .secure { margin-top: 14px; font-size: 0.85rem; }
 
 /* eBook 3D flutuante */
 .hero__media { display: flex; justify-content: center; }
