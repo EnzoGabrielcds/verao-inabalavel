@@ -216,12 +216,15 @@ img { max-width: 100%; display: block; }
   font-weight: 600;
   color: var(--navy);
   text-decoration: line-through;
+  text-decoration-color: #DC3545;
+  text-decoration-thickness: 2px;
 }
 .hero__price-label {
   font-family: var(--font-body);
   font-size: 1.075rem;
   font-weight: 600;
   color: var(--navy);
+  text-transform: uppercase;
 }
 .hero__price-new {
   font-family: var(--font-title);
