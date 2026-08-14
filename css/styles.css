@@ -212,7 +212,7 @@ img { max-width: 100%; display: block; }
 }
 .hero__price-old {
   font-family: var(--font-body);
-  font-size: 1.075rem;
+  font-size: 1.16rem;
   font-weight: 600;
   color: var(--navy);
   text-decoration: line-through;
@@ -229,7 +229,7 @@ img { max-width: 100%; display: block; }
 .hero__price-new {
   font-family: var(--font-title);
   font-weight: 900;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   line-height: 1;
   color: var(--orange);
 }
@@ -237,6 +237,19 @@ img { max-width: 100%; display: block; }
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--muted);
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px 10px;
+}
+.hero__price-sub-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.hero__price-sub-sep {
+  opacity: 0.6;
 }
 
 .badge {
@@ -317,6 +330,13 @@ img { max-width: 100%; display: block; }
   font-weight: 600;
 }
 .secure--light { color: rgba(255, 255, 255, 0.85); }
+.hero-icon {
+  width: 1.15em;
+  height: 1.15em;
+  color: var(--navy);
+  flex-shrink: 0;
+  vertical-align: middle;
+}
 .split__content .secure { margin-top: 14px; font-size: 0.85rem; }
 
 /* eBook 3D flutuante */
@@ -327,7 +347,7 @@ img { max-width: 100%; display: block; }
    margin-top: -80px;
 }
 .ebook__img {
-  width: min(350px, 75vw);
+  width: min(390px, 83vw);
   border-radius: 12px;
   filter: drop-shadow(0 30px 45px rgba(13, 43, 76, 0.35));
   transform: rotateY(-8deg) rotateX(2deg);
@@ -576,7 +596,7 @@ img { max-width: 100%; display: block; }
   .hero__details { order: 5; }
 
   .ebook { margin-top: 0; margin-left: 0; }
-  .ebook__img { width: min(297px, 64vw); }
+  .ebook__img { width: min(330px, 71vw); }
   .hero__title { margin-bottom: 0; }
   .hero__list { max-width: 420px; margin-inline: auto; margin-bottom: 0; }
   .hero__subtitle { margin-inline: auto; }
