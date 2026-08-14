@@ -236,7 +236,8 @@ img { max-width: 100%; display: block; }
 .hero__price-sub {
   font-size: 0.9rem;
   font-weight: 600;
-  color: var(--muted);
+  color: var(--navy);
+  text-transform: uppercase;
   display: inline-flex;
   flex-wrap: wrap;
   align-items: center;
