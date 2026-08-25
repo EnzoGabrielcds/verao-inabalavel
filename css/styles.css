@@ -499,6 +499,35 @@ img { max-width: 100%; display: block; }
 .stars { color: var(--orange); letter-spacing: 2px; font-size: 0.95rem; }
 .testimonial__text { color: var(--muted); font-style: italic; }
 
+/* ---------- CTA de meio de funil ---------- */
+.section-cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+/* ---------- Bônus ---------- */
+.bonus {
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: center;
+}
+.bonus .section__title { margin-bottom: 28px; }
+.bonus__list { justify-items: center; }
+.bonus__list li { justify-content: center; }
+
+/* ---------- Placeholder de prova social ---------- */
+.testimonial-placeholder {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 48px 32px;
+  text-align: center;
+  color: var(--muted);
+  background-color: var(--white);
+  border: 1px dashed rgba(13, 43, 76, 0.2);
+  border-radius: var(--radius-lg);
+}
+
 /* ---------- Garantia ---------- */
 .guarantee {
   background-color: var(--white);
