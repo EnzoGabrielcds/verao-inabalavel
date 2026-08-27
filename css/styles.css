@@ -296,7 +296,8 @@ img { max-width: 100%; display: block; }
 
 .hero__subtitle {
   font-size: 1.15rem;
-  color: var(--muted);
+  font-weight: 600;
+  color: var(--navy);
   max-width: 520px;
   margin-bottom: 28px;
   text-wrap: pretty;
