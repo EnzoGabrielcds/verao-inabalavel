@@ -206,6 +206,20 @@ img { max-width: 100%; display: block; }
 .hero__cta     { grid-area: cta;   justify-self: stretch; }
 .hero__media   { grid-area: media; }
 
+/* Variante do topo sem a coluna de capa/preço (oferta foi para depois de "Para quem é") */
+.hero__inner--intro {
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "head"
+    "details"
+    "cta";
+  justify-items: center;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+}
+.hero__inner--intro .hero__subtitle { margin-left: auto; margin-right: auto; }
+
 /* Bloco de preço */
 .hero__price {
   display: flex;
@@ -477,6 +491,20 @@ img { max-width: 100%; display: block; }
   width: 100%;
   object-fit: cover;
 }
+
+/* ---------- Oferta (capa + preço + bônus + CTA, após "Para quem é") ---------- */
+.oferta__split .split__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 32px;
+}
+.oferta__split .split__media {
+  display: flex;
+  justify-content: center;
+}
+.oferta__split .ebook { margin: 0; }
 
 /* ---------- Depoimentos ---------- */
 .testimonial {
