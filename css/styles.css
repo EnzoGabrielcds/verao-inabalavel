@@ -545,8 +545,34 @@ img { max-width: 100%; display: block; }
   text-align: center;
 }
 .bonus .section__title { margin-bottom: 28px; }
-.bonus__list { justify-items: center; }
-.bonus__list li { justify-content: center; }
+.bonus__list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+.bonus-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 14px 16px;
+  background-color: var(--white);
+  border: 1px solid rgba(13, 43, 76, 0.08);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  text-align: left;
+}
+.bonus-card__icon {
+  flex-shrink: 0;
+  font-size: 1.4rem;
+  line-height: 1;
+}
+.bonus-card__text {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--navy);
+}
 
 /* ---------- Placeholder de prova social ---------- */
 .testimonial-placeholder {
