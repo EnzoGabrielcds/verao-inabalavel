@@ -605,7 +605,7 @@ img { max-width: 100%; display: block; }
   color: var(--navy);
   margin-bottom: 14px;
 }
-.guarantee__text { color: var(--muted); font-size: 1.1rem; max-width: 560px; margin: 0 auto; }
+.guarantee__text { color: var(--navy); font-size: 1.1rem; max-width: 560px; margin: 0 auto; }
 
 /* ---------- CTA Final ---------- */
 .cta-final {
